@@ -3,7 +3,6 @@ import streamlit as st
 st.title("Análise de Gastos Públicos da prefeitura de Arraial do Cabo de 2025")
 st.write("Este aplicativo permite analisar os gastos públicos da prefeitura de Arraial do Cabo.")
 import pandas as pd
-import matplotlib.pyplot as plt
 import requests
 
 @st.cache_data
